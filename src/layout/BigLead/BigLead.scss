@@ -1,0 +1,39 @@
+.big-lead {
+    &__row {
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        @media (min-width: 992px) {
+            padding-top: 140px;
+            padding-bottom: 140px;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.2;
+        color: #52503b;
+        max-width: 1287px;
+
+        @media (min-width: 992px) {
+            font-size: 96px;
+            line-height: 96px;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 42px;
+            top: -32px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #E08631;
+        }
+    }
+
+    &__image {
+        max-width: 1440px;
+    }
+}

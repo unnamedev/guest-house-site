@@ -1,0 +1,15 @@
+.header {
+    background-color: #52503B;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    &__inner {
+        max-width: 1200px;
+    }
+
+    &__menu {
+        max-width: 253px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
