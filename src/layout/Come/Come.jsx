@@ -16,7 +16,7 @@ const Come = () =>
         <ul className="grid gap-3 sm:grid-cols-2">
             {data.items.map((item, idx) => (
                 <li className="flex flex-col items-center gap-2 sm:flex-row md:gap-[16px] md:items-center" key={idx}>
-                    <img className="w-[36px]" src={`/images/come/${item.src}`} alt={item.text}/>
+                    <img className="w-[36px]" src={`/assets/images/come/${item.src}`} alt={item.text}/>
                     <p>{item.text}</p>
                 </li>
             ))}

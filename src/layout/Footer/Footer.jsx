@@ -14,7 +14,7 @@ const Footer = () =>
                 <h3 className="uppercase mb-[11px]">{data.column01.title}</h3>
                 <ul className="grid gap-[12px]">
                     {data.column01.list.map((i, idx) => (
-                        <li className={idx}>
+                        <li key={idx}>
                             <a href="#">{i}</a>
                         </li>
                     ))}
@@ -42,7 +42,7 @@ const Footer = () =>
             </div>
         </div>
         <div className="flex flex-col items-center text-center gap-3">
-            <img className="md:max-w-[200px] md:w-full" src="/images/logo.svg" alt=""/>
+            <img className="md:max-w-[200px] md:w-full" src="/assets/images/logo.svg" alt=""/>
             <p>© Guest House, LLC. All rights reserved. Powered by Nagoev</p>
             <p>+47 (0) 702 88 12 34 - example@webflow.io - Klubbvika 12, 8310 Kabelvag, Norway</p>
         </div>

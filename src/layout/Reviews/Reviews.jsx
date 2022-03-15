@@ -25,8 +25,7 @@ const Reviews = () =>
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
             >
-                {data.slides.map((slide, idx) => (
-                    <SwiperSlide key={idx}>
+                {data.slides.map((slide, idx) => <SwiperSlide key={idx}>
                         <div className="bg-white p-[20px] md:p-[32px]">
                             <div className="flex gap-0.5 mb-[10px]">
                                 {Array(slide.rating).fill(<AiFillStar size={18}/>)}
@@ -36,10 +35,10 @@ const Reviews = () =>
                             <p className="pl-[10px] border-l-2 border-l-[#E08631]">{slide.author}</p>
                         </div>
                     </SwiperSlide>
-                ))}
+                )}
             </Swiper>
         </section>
-        <img className="m-auto w-full" src="/images/reaviews/image.jpg" alt={data.headline}/>
+        <img className="m-auto w-full" src="/assets/images/reaviews/image.jpg" alt={data.headline}/>
     </>
 
 

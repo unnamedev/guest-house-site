@@ -9,11 +9,11 @@ const Hero = () =>
     <section className="hero">
         <div className="hero__top text-white text-center pl-2 pr-2 relative">
             <div className="hero__inner w-full m-auto flex flex-col items-center relative">
-                <img className="hero__icon w-full" src="/images/logo.svg" alt="Guest House"/>
+                <img className="hero__icon w-full" src="/assets/images/logo.svg" alt="Guest House"/>
                 <h1 className="hero__title">Experience the perfect combination of modern housing & natural scenery.</h1>
                 <p className="hero__text uppercase">Located in Lofoten, norway</p>
                 <button className="absolute hero__scroll">
-                    <img src="/images/intro/mouse-ico.svg" alt="Scroll down"/>
+                    <img src="/assets/images/intro/mouse-ico.svg" alt="Scroll down"/>
                 </button>
             </div>
         </div>

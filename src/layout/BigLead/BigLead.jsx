@@ -12,7 +12,7 @@ const BigLead = () =>
                 The Guest House is the perfect weekend getaway cabin.
             </h2>
         </div>
-        <img className="big-lead__image w-full m-auto" src="/images/big-lead/image.jpg" alt="The Guest House"/>
+        <img className="big-lead__image w-full m-auto" src="/assets/images/big-lead/image.jpg" alt="The Guest House"/>
     </section>
 
 export default BigLead

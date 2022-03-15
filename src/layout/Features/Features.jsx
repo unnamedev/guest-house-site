@@ -20,7 +20,7 @@ const Features = () =>
                 <ul className="grid gap-4" key={idx}>
                     {column.items.map((item, idx) => (
                         <li className="flex flex-col gap-[16px] items-center text-center sm:flex-row sm:text-left" key={idx}>
-                            <img className="max-w-[36px]" src={`/images/features/${item.src}`} alt={item.title}/>
+                            <img className="max-w-[36px]" src={`/assets/images/features/${item.src}`} alt={item.title}/>
                             <div>
                                 <h3 className="font-semibold">{item.title}</h3>
                                 <p>{item.text}</p>

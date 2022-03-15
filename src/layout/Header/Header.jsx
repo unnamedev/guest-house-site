@@ -1,5 +1,5 @@
 import "./Header.scss"
-import logo from "../../../images/logo.svg"
+
 /**
  * @description ✏️ Header Component
  * @returns {JSX.Element}
@@ -10,7 +10,7 @@ const Header = () =>
         <div
             className="header__inner flex flex-col items-center justify-center w-full gap-3 m-auto sm:flex-row sm:justify-between">
             <a href="#" className="logo">
-                <img src={logo} alt="Guest House"/>
+                <img src="/assets/images/logo.svg" alt="Guest House"/>
             </a>
 
             <ul className="header__menu flex justify-center gap-2 w-full text-white">
